@@ -6229,6 +6229,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"babel-plugin-remove-graphql-queries@npm:^5.13.1":
+  version: 5.13.1
+  resolution: "babel-plugin-remove-graphql-queries@npm:5.13.1"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    "@babel/types": ^7.20.7
+    gatsby-core-utils: ^4.13.1
+  peerDependencies:
+    "@babel/core": ^7.0.0
+    gatsby: ^5.0.0-next
+  checksum: 778a13ea256f58e7e80364b27ea871d9412871a8ae4260c2eea9382065b12ae5f3ae13c35539196de95e33ae47b5ec8393c3240085d99ca81dfd2b07cf415b87
+  languageName: node
+  linkType: hard
+
 "babel-plugin-styled-components@npm:>= 1.12.0":
   version: 2.0.6
   resolution: "babel-plugin-styled-components@npm:2.0.6"
@@ -6721,7 +6735,7 @@ __metadata:
     framer-motion: ^10.12.16
     gatsby: ^5.10.0
     gatsby-plugin-emotion: ^8.10.0
-    gatsby-plugin-image: ^3.10.0
+    gatsby-plugin-image: ^3.13.1
     gatsby-plugin-netlify: ^5.1.0
     gatsby-plugin-react-helmet: ^6.10.0
     gatsby-plugin-sharp: ^5.10.0
@@ -9307,7 +9321,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -9422,6 +9436,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^4.13.1":
+  version: 4.13.1
+  resolution: "gatsby-core-utils@npm:4.13.1"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.15.0
+    file-type: ^16.5.4
+    fs-extra: ^11.1.1
+    got: ^11.8.6
+    hash-wasm: ^4.9.0
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 18024206ae31a89ec0533b2d31c1d12f0f1cea09451e73daa49276bd1f1d84b47dc94602d97bc4d37fa203ffd66de33afaeffbe7ccc96569c8ef42251ddb1151
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^3.10.0":
   version: 3.10.0
   resolution: "gatsby-graphiql-explorer@npm:3.10.0"
@@ -9506,22 +9544,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-image@npm:^3.10.0":
-  version: 3.10.0
-  resolution: "gatsby-plugin-image@npm:3.10.0"
+"gatsby-plugin-image@npm:^3.13.1":
+  version: 3.13.1
+  resolution: "gatsby-plugin-image@npm:3.13.1"
   dependencies:
     "@babel/code-frame": ^7.18.6
     "@babel/parser": ^7.20.13
     "@babel/runtime": ^7.20.13
     "@babel/traverse": ^7.20.13
     babel-jsx-utils: ^1.1.0
-    babel-plugin-remove-graphql-queries: ^5.10.0
+    babel-plugin-remove-graphql-queries: ^5.13.1
     camelcase: ^6.3.0
     chokidar: ^3.5.3
     common-tags: ^1.8.2
     fs-extra: ^11.1.1
-    gatsby-core-utils: ^4.10.0
-    gatsby-plugin-utils: ^4.10.0
+    gatsby-core-utils: ^4.13.1
+    gatsby-plugin-utils: ^4.13.1
     objectFitPolyfill: ^2.3.5
     prop-types: ^15.8.1
   peerDependencies:
@@ -9536,7 +9574,7 @@ __metadata:
       optional: true
     gatsby-source-filesystem:
       optional: true
-  checksum: d70a24fa6d0116deb50221a1a0ea25533e585f5501a5f6e2598b1468a1b923315caad90f972d1d03a8e32ac8767d5363c37cd4827d1c2b4987f8b8fd1e65d3f3
+  checksum: 548666913a20a5c65ecbcdcf5477e3bc52901f795b6c5ace0b2a92ac289705b8cc4b2cd0f41d96a11df26aaca63d8462811c53d947d1d6c7cb59ff155042d254
   languageName: node
   linkType: hard
 
@@ -9649,6 +9687,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-plugin-utils@npm:^4.13.1":
+  version: 4.13.1
+  resolution: "gatsby-plugin-utils@npm:4.13.1"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    fastq: ^1.15.0
+    fs-extra: ^11.1.1
+    gatsby-core-utils: ^4.13.1
+    gatsby-sharp: ^1.13.0
+    graphql-compose: ^9.0.10
+    import-from: ^4.0.0
+    joi: ^17.9.2
+    mime: ^3.0.0
+  peerDependencies:
+    gatsby: ^5.0.0-next
+    graphql: ^16.0.0
+  checksum: 4d8c573aa945c46fbe08e1c8d9cde1b3db9f28c279180d22c4052c22b1425afdb2626d2626a36a75223d5c06b93c139ec476b68ae534d5706799b71a8f841cb1
+  languageName: node
+  linkType: hard
+
 "gatsby-react-router-scroll@npm:^6.10.0":
   version: 6.10.0
   resolution: "gatsby-react-router-scroll@npm:6.10.0"
@@ -9680,6 +9738,15 @@ __metadata:
   dependencies:
     sharp: ^0.32.1
   checksum: a2c46bfc8450d65f9ad8d896766ca5d50cfbfd66196655490510d105d54d28745358f9c8fa83da8e957bbbbea85ddd9ed19a4febc497af857c2810549e9dc1ea
+  languageName: node
+  linkType: hard
+
+"gatsby-sharp@npm:^1.13.0":
+  version: 1.13.0
+  resolution: "gatsby-sharp@npm:1.13.0"
+  dependencies:
+    sharp: ^0.32.6
+  checksum: 1e7edc6c6db4b07dfae18b7583e8488c2775f08679504ba66f217304361ca6bf86437d86ce42cc17cccc6fb1c02a281cc79490d5131414e8f30ae551323af22c
   languageName: node
   linkType: hard
 
@@ -14398,7 +14465,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>":
   version: 1.22.3
-  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=07638b"
   dependencies:
     is-core-module: ^2.12.0
     path-parse: ^1.0.7
@@ -14411,7 +14478,7 @@ __metadata:
 
 "resolve@patch:resolve@^2.0.0-next.4#~builtin<compat/resolve>":
   version: 2.0.0-next.4
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -14762,7 +14829,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sharp@npm:^0.32.1":
+"sharp@npm:^0.32.1, sharp@npm:^0.32.6":
   version: 0.32.6
   resolution: "sharp@npm:0.32.6"
   dependencies:
@@ -15871,11 +15938,11 @@ __metadata:
 
 "typescript@patch:typescript@^4.9.5#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: ab417a2f398380c90a6cf5a5f74badd17866adf57f1165617d6a551f059c3ba0a3e4da0d147b3ac5681db9ac76a303c5876394b13b3de75fdd5b1eaa06181c9d
+  checksum: 2eee5c37cad4390385db5db5a8e81470e42e8f1401b0358d7390095d6f681b410f2c4a0c496c6ff9ebd775423c7785cdace7bcdad76c7bee283df3d9718c0f20
   languageName: node
   linkType: hard
 
